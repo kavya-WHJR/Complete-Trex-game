@@ -10,7 +10,6 @@ var obstaclesGroup, obstacle1, obstacle2, obstacle3, obstacle4, obstacle5, obsta
 
 var score;
 
-
 function preload(){
   trex_running = loadAnimation("trex1.png","trex3.png","trex4.png");
   trex_collided = loadAnimation("trex_collided.png");
@@ -55,7 +54,7 @@ function setup() {
 }
 
 function draw() {
-  background("pink");
+  background("green");
   //displaying score
   text("Score: "+ score, 500,50);
   
